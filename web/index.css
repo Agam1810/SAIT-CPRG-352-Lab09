@@ -1,0 +1,93 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: white;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: bolder;
+}
+.userForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px 8px;
+   border: 2px solid black;
+    z-index: 1;
+}
+.addUser{
+    background-image: linear-gradient(to right, #61dafb, white);
+    height: 26.4rem;
+    transition: .3s;
+}
+.editUser{
+    background-image: linear-gradient(to right, #61dafb, white);
+    height: 26.409rem;
+    transition: .3s;
+}
+.manageUsers{
+    background-image:  linear-gradient(to right, #a4eb67, white);
+    margin: 0px 4px;
+     border: 2px solid black;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+th{
+    padding: 8px 26px;
+    border: 1px solid #cecece;
+    text-align: left;
+}
+td{
+    padding: 7px 9px;
+    border: 1px solid #cecece;
+}
+.typeEmail{
+    width: 10rem;
+}
+.typeRole{
+    width: 5rem;
+}
+.userTable{
+    margin-top: 10px;
+    border: 1px solid #cecece;
+    border-collapse: collapse;
+}
+.fields{
+    width: 19rem;
+    height: 2rem;
+    margin: 10px 10px;
+    padding-left: 27px;
+    border: none;
+    transition: .5s;
+}
+.selectRole{
+    width: 20.68rem;
+}
+.heading{
+    margin: 10px 10px;
+    padding: 20px 2px;
+    text-align: center;
+}
+.mHeading{
+    text-align: center;
+    margin-top: 10px;
+}
+.btn{
+    background-color: #3aaf16;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding-left: 7px;
+    width: 20.98rem;
+    transition: .5s;
+}
+
+
